@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+    height: 100vh;
+    width: 15rem;
+    border: 0.05rem black solid;
+}
+
+.content{
+    width: 75rem;
+    border: 0.05rem black solid;
+
+    background-color: orange;
+}
+
+header{
+    height: 25vh;
+    width: 75rem;
+    border: 0.05rem black solid;
+
+    background-color: red;
+}
+
+section{
+    height: 50vh;
+    width: 75rem;
+    border: 0.05rem black solid;
+
+    background-color: tan;
+}
+
+footer{
+    height: 25vh;
+    width: 75rem;
+    border: 0.05rem black solid;
+
+    background-color: blue;
+}
