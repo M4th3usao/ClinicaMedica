@@ -154,6 +154,29 @@ form{
     margin: 5px;
 }
 
+#infos{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+table{
+    width: 35rem;
+    border: 1px solid black;
+
+    margin-top: 2rem;
+    align-items: center;
+    text-align: center;
+}
+table th{
+    color: #ddd;
+    background-color: black;
+}
+table td{
+    border: 1px solid black;
+}
 footer{
     display: flex;
     height: 10vh;
